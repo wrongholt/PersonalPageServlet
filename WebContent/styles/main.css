@@ -1,0 +1,153 @@
+#box{
+  margin:0px auto;
+  width: 80%;
+  background-color:#3F47A8;
+  min-width: 960px;
+  max-width:2048px;
+  border-width: 3px;
+  box-shadow: 3px 3px 3px 3px #2E0000;
+}
+header,main,nav,footer,figure,figcaption,aside,section,article{
+  display:block;
+}
+header{
+  height:20%;
+  width:100%;
+  text-align:left;
+  margin-bottom:10px;
+  padding:4px;
+}
+
+body {
+    background-color:#B06C41;
+    color:#ffffff;
+    background-image: linear-gradient(to bottom,#714C34,#B06C41);
+    background-repeat:no-repeat;
+
+}
+nav{
+    width:100%;
+    padding:0;
+    
+  }
+  
+nav>ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height:30px;
+  text-align:center;
+}
+
+nav>ul>li{ 
+  margin: 10px auto;
+  display:inline;
+}
+nav>ul>li>a:first-child{
+  background-color:#AEB041;
+}
+nav>ul>li>a{
+  background-color: #707134;
+  color: #FFF;
+  text-decoration: none;
+  text-align:center;
+  font-size:20px;
+  padding:10px;
+  box-shadow:2px 2px 2px #330000;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+nav>ul>li>a:hover, nav>ul>li>a:focus{
+    background-color:#EFF243;
+  }
+main{
+  
+}
+.table {
+    display:table;
+    margin:10px;
+    width:98%;
+}
+.tr {
+    display:table-row;
+}
+.b1 {
+    display:table-cell;
+    text-align:left;
+    width:33%;
+}
+.b2 {
+    display:table-cell;
+    text-align:center;
+    font-size:2em;
+    width:33%;
+}
+.b3 {
+    display:table-cell;
+    text-align:right;
+    width:33%;
+}
+.b3>a:link{
+  color:white;
+}
+.b3>a:hover, .b3>a:focus{
+  color:orange;
+}
+main>section>ul>li>a:link{
+  color:white;
+}
+main>section>ul>li>a:hover, main>section>ul>li>a:focus{
+  color:orange;
+}
+.a1 {
+    font-weight:bold;
+}
+.a2 {
+    font-weight:normal;
+}
+
+.d4 {
+    float:right;
+    width:65%;
+    font-weight:normal;
+}
+footer{
+  padding:10px;
+}
+/*tablet view*/
+@media only screen and (max-width: 64em){
+  body{
+    margin:0;
+    background-color:#D2B48C;
+  }
+  #box{
+    min-width:0;
+    width:90%;
+    box-shadow:none;
+  }
+  h1{
+    margin:0;
+  }
+  nav{
+    width:100%;
+    height:75px;
+    padding:1px; 
+  }
+  nav>ul>li{
+    display:inline;
+    
+  }
+}
+/*phone view*/
+@media only screen and (max-width:37.5em){
+  header{
+    background-size:70%;
+}  
+  nav>ul>li{
+    display:inline-block;
+    width:5em;
+    font-size:120%;
+    padding: 1px;
+  }
+}
