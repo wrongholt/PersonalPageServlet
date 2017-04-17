@@ -21,7 +21,7 @@
 		<p><em>${message}</em></p>
 		 
 		<p>To connect with me, enter your name and email address below.</p>
-	<form action = "connect">
+	  <form action = "connect" id = "form">
 		<label for = "firstName">First Name: </label>
 		<input name = "firstName" value ="${user.firstName}"><br>
 		
@@ -31,7 +31,12 @@
 		<label for = "email">Email: </label>
 		<input name = "email" value ="${user.email}"><br>
 		<input type="submit" value="Connect!">
-	</form>
+	  </form>
+	  <footer>
+        <small>
+        Copyright &copy; 2016 William Rongholt
+        </small>
+      </footer>
 	</body>
 
 </html>

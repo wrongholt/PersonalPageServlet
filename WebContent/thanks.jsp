@@ -10,6 +10,12 @@
 		
 		<p>You should check out my <a href="bio.html">Bio Page</a>! Or, return to my <a href="index.html">Home Page</a>.</p>
 
+
+	  <footer>
+        <small>
+        Copyright &copy; 2016 William Rongholt
+        </small>
+      </footer>
 	</body>
 
 </html>

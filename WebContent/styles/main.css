@@ -43,10 +43,10 @@ nav>ul>li{
   margin: 10px auto;
   display:inline;
 }
-nav>ul>li>a:first-child{
+nav>ul>li:first-child{
   background-color:#AEB041;
 }
-nav>ul>li>a{
+nav>ul>li{
   background-color: #707134;
   color: #FFF;
   text-decoration: none;
@@ -58,11 +58,12 @@ nav>ul>li>a{
   border-radius: 5px;
 }
 
-nav>ul>li>a:hover, nav>ul>li>a:focus{
+nav>ul>li:hover, nav>ul>li:focus{
     background-color:#EFF243;
   }
-main{
-  
+#form>input{
+	text-align: center;
+	margin: auto;
 }
 .table {
     display:table;
